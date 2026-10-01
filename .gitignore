@@ -1,0 +1,47 @@
+# Virtual environment
+bin/
+lib/
+include/
+pyvenv.cfg
+CACHEDIR.TAG
+.lock
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment & API keys
+.env
+.env.*
+!.env.example
+
+# Testing & evaluation artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+eval_results/
+.eval_cache/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
